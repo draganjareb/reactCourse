@@ -1,0 +1,61 @@
+.divWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.divHolder {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.profileImg {
+  margin-top: 15px;
+  max-width: 100px;
+  width: 100%;
+  border-radius: 50%;
+  height: 100px;
+}
+
+.imagesLogo {
+  max-width: 40px;
+  width: 100%;
+  height: 40px;
+  gap: 15px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.cardButton {
+  margin-top: 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  max-width: 150px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.cardButton:hover {
+  background-color: rgb(155, 155, 244);
+  cursor: pointer;
+}
+
+.cardBottom {
+  display: flex;
+}
+
+.cardBottomInf {
+  max-width: 230px;
+  width: 100%;
+}
